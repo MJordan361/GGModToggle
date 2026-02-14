@@ -1,0 +1,20 @@
+
+{
+  "schemaVersion": 1,
+  "id": "ggmod",
+  "version": "1.0.0",
+  "name": "GG Mod (Toggle)",
+  "description": "Sends 'gg' when someone types '5-20'. Toggle with G key.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.ggmod.GGMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
